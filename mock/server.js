@@ -5,7 +5,7 @@ let bodyParser=require('body-parser');
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static('../dist'));
 app.get('/',function (req,res) {
-    res.sendFile('index.html');
+    res.sendFile('./index.html',{});
 });
 let ad=require('./home/ad');
 //广告的接口
