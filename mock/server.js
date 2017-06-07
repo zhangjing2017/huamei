@@ -4,6 +4,7 @@ app.listen(3000);
 let bodyParser=require('body-parser');
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static('../dist'));
+app.use(express.static('../assets/images'));
 app.get('/',function (req,res) {
     res.sendFile('./dist/index.html',{root:__dirname});
 });

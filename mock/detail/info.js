@@ -1,5 +1,5 @@
 module.exports = {
-    img: '../../../app/assets/images/22.png',
+    img: '/app/assets/images/22.png',
     title: '除皱针 北京肉毒素 单次 火爆钜惠 自然减齡',
     price: '3560/次',
     subTitle: '整容 & 塑形 瘦身',
