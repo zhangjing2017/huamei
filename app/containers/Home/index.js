@@ -10,9 +10,9 @@ import Ad2 from "./subpage/Ad2";
 import Other from "./subpage/Other";
 import Nav from "./subpage/Nav";
 let images=[
-    {src:require('../../../app/assets/images/10.png')},
+    {src:require('../../../app/assets/images/11-1.jpg')},
     {src:require('../../../app/assets/images/11.png')},
-    {src:require('../../../app/assets/images/10.png')},
+    {src:require('../../../app/assets/images/10.png')}
     ];
 class Home extends Component{
     render(){
