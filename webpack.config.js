@@ -34,7 +34,7 @@ module.exports={
     devtool:'source-map',//错误时可以提示源码错误，不会光显示bundle.js错误
     devServer:{
         proxy:{  //跨域用的
-            '/api':'http://localhost:3000'
+            '/api':'http://localhost:6767'
         }
     }
 }

@@ -4,7 +4,6 @@ import {connect} from 'react-redux';
 import HeaderComponent from "../../components/HeaderComponent/index";
 import Info from "./subpage/Info";
 import Comment from "./subpage/Comment";
-import Buy from "../../components/Buy/index";
 import * as Actions from '../../actions/store';
 import {bindActionCreators} from 'redux';
 class Detail extends Component{
@@ -49,16 +48,6 @@ class Detail extends Component{
             return true
         }else{
             return false
-        }
-    }
-    buy(){  //购买
-        //如果登录成功，点击购买，跳到用户页面
-        let flag=this.checkLogin();//返回布尔值
-        if(flag){
-            this.props.history.push('/user');
-        }else{
-            //如果登录成功后，还要跳回当前页
-            this.props.history.push('/login/'+encodeURIComponent('/detail/'+this.props.match.params.id));
         }
     }
     store(){  //收藏
