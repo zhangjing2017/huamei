@@ -5,7 +5,7 @@ module.exports = {
             username: '133****3355',
             comment: '非常好吃，棒棒的，下次再来',
             star: 5
-        },
+        },据拒绝就
         {
             username: '135****3452',
             comment: '羊肉够分量，不错',
